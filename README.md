@@ -13,7 +13,7 @@
 
 3. Edit your cm_objects.xml and add the contents from the included data/bellfix.xml Thus replacing the entire block for <!--name = AlarmBell_3rdTier-->
 - usually from line 25833 to 25938
-- IF YOU HAVE NOT PREVIOUSLY EDITED THE cm_objects file the provided modpack.zip can be extracted to add whatever else you require - cm_objects is pre done for you inside the zip file
+- IF YOU HAVE NOT PREVIOUSLY EDITED THE cm_objects file the provided modpack.zip can be extracted to add whatever else you require - cm_objects is pre done for you inside the zip file assuming no other changes have been made.
 ### This is a client side mod ONLY so it is to be shared with the client in the modpack not the server
 
 4. Add the Belltower fix folder into your yo launcher package inside the following file path
