@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "BellTower-Fix",
+  "name": "Bell Tower Sound Fix",
+  "version": "1.0.1",
+  "description": "Gives the 3rd-tier alarm bell a church-bell sound profile, audible at range.",
+  "authors": [
+    "lif-x community"
+  ],
+  "source": {
+    "repo": "LiF-x/BellTower-Fix",
+    "commit": "80a23123aaac719d65dc5f98cd002745d262aeec"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "dependencies": [
+    "LiF-x/ClientAutoloader"
+  ],
+  "loadOrderHint": 100,
+  "objectTypeIds": {
+    "added": [],
+    "modified": [
+      1733
+    ]
+  },
+  "files": {
+    "overlay": [
+      {
+        "src": "yolauncher/modpack/mods/LiFx/BelltowerFix/",
+        "dest": "yolauncher/modpack/mods/LiFx/BelltowerFix/"
+      }
+    ],
+    "dataPatches": [
+      {
+        "target": "data/cm_objects.xml",
+        "transform": "transforms/cm_objects.xdt.xml"
+      }
+    ]
+  }
+}
